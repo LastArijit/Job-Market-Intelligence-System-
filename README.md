@@ -2,11 +2,6 @@
 <img width="1024" height="1536" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" />
 
 <p align="center">
-  <a href="https://x.com/santifer"><img src="<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/dff61477-7df1-4fc3-838a-1a15a6e9de7c" />
-<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/f8518fab-667a-4459-bfe8-b53bbe8974e6" />" alt="Career-Ops — Multi-Agent Job Search System" width="800"></a>
-</p>
-
-<p align="center">
   <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>
   Companies use AI to filter candidates. <strong>I gave candidates AI to <em>choose</em> companies.</strong><br>
   <em>Now it's open source.</em>
