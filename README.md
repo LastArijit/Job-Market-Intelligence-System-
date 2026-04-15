@@ -1,4 +1,5 @@
-<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" /># Job-Market-Intelligence-System
+# Job-Market-Intelligence-System
+<img width="1024" height="1536" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" />
 
 <p align="center">
   <a href="https://x.com/santifer"><img src="<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/dff61477-7df1-4fc3-838a-1a15a6e9de7c" />
