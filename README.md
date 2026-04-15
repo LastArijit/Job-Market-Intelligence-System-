@@ -1,10 +1,8 @@
-# Job-Market-Intelligence-System
-# Career-Ops
-
-[English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [Русский](README.ru.md) | [繁體中文](README.zh-TW.md)
+<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" /># Job-Market-Intelligence-System
 
 <p align="center">
-  <a href="https://x.com/santifer"><img src="docs/hero-banner.jpg" alt="Career-Ops — Multi-Agent Job Search System" width="800"></a>
+  <a href="https://x.com/santifer"><img src="<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/dff61477-7df1-4fc3-838a-1a15a6e9de7c" />
+<img width="1024" height="1536" alt="Job market trends and insights" src="https://github.com/user-attachments/assets/f8518fab-667a-4459-bfe8-b53bbe8974e6" />" alt="Career-Ops — Multi-Agent Job Search System" width="800"></a>
 </p>
 
 <p align="center">
