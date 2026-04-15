@@ -5,11 +5,17 @@
 </p>
 
 <p align="left">
-  <em>I recently graduated and wanted to understand the job market better — not just apply blindly.</em><br>
-  Manually tracking roles, cleaning data, and spotting trends was slow and frustrating.<br>
-  <strong>So I built my own pipeline to analyze the job market like a system, not a guess.</strong><br>
-  <em>Now it collects, cleans, structures, and helps uncover patterns in opportunities.</em><br>
-  <em>And yes — I decided to open source it.</em>
+  <em>Having just graduated, I wanted a clearer view of the job market.</em><br>
+But the reality?<br>
+Messy data. Duplicate roles. No signal — just noise.<br><br>
+
+Tracking it manually didn’t scale. So I stopped searching for a solution — and built one.<br><br>
+
+<strong>A pipeline that collects, cleans, and structures job data into something actually usable.</strong><br>
+<em>Something you can analyze. Something that reveals patterns.</em><br><br>
+
+What started as a personal fix became something bigger.<br>
+<em>So I open sourced it — because this problem isn’t just mine.</em>
 </p>
 
 <p align="left">
@@ -24,11 +30,11 @@
 
 ---
 
-<p align="center">
+<p align="left">
   <img src="docs/demo.gif" alt="Job Market System Demo" width="800">
 </p>
 
-<p align="center"><strong>Real job data → cleaned → structured → analyzed</strong></p>
+<p align="left"><strong>Real job data → cleaned → structured → analyzed</strong></p>
 ## What Is This
 
 Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
