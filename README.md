@@ -19,8 +19,8 @@ What started as a personal fix became something bigger.<br>
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
-  <img src="https://img.shields.io/badge/OpenCode-111827?style=flat&logo=terminal&logoColor=white" alt="OpenCode">
+  <img src="https://img.shields.io/badge/Curser-000?style=flat&logo=anthropic&logoColor=white" alt="Curser">
+  <img src="https://img.shields.io/badge/PowerBI-111827?style=flat&logo=terminal&logoColor=white" alt="PowerBI">
   <img src="https://img.shields.io/badge/Codex_(soon)-6B7280?style=flat&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite">
