@@ -1,42 +1,34 @@
 # Job-Market-Intelligence-System
-<img width="1024" height="1536" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" />
 
 <p align="center">
-  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>
-  Companies use AI to filter candidates. <strong>I gave candidates AI to <em>choose</em> companies.</strong><br>
-  <em>Now it's open source.</em>
+  <img width="700" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" />
+</p>
+
+<p align="center">
+  <em>I recently graduated and wanted to understand the job market better — not just apply blindly.</em><br>
+  Manually tracking roles, cleaning data, and spotting trends was slow and frustrating.<br>
+  <strong>So I built my own pipeline to analyze the job market like a system, not a guess.</strong><br>
+  <em>Now it collects, cleans, structures, and helps uncover patterns in opportunities.</em><br>
+  <em>And yes — I decided to open source it.</em>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
   <img src="https://img.shields.io/badge/OpenCode-111827?style=flat&logo=terminal&logoColor=white" alt="OpenCode">
   <img src="https://img.shields.io/badge/Codex_(soon)-6B7280?style=flat&logo=openai&logoColor=white" alt="Codex">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/API-JSearch-blue?style=flat" alt="API">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
-  <br>
-  <img src="https://img.shields.io/badge/EN-blue?style=flat" alt="EN">
-  <img src="https://img.shields.io/badge/ES-red?style=flat" alt="ES">
-  <img src="https://img.shields.io/badge/DE-grey?style=flat" alt="DE">
-  <img src="https://img.shields.io/badge/FR-blue?style=flat" alt="FR">
-  <img src="https://img.shields.io/badge/PT--BR-green?style=flat" alt="PT-BR">
-  <img src="https://img.shields.io/badge/KO-white?style=flat" alt="KO">
-  <img src="https://img.shields.io/badge/JA-red?style=flat" alt="JA">
-  <img src="https://img.shields.io/badge/ZH--TW-blue?style=flat" alt="ZH-TW">
 </p>
 
 ---
 
 <p align="center">
-  <img src="docs/demo.gif" alt="Career-Ops Demo" width="800">
+  <img src="docs/demo.gif" alt="Job Market System Demo" width="800">
 </p>
 
-<p align="center"><strong>740+ job listings evaluated · 100+ personalized CVs · 1 dream role landed</strong></p>
-
-<p align="center"><a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a></p>
-
+<p align="center"><strong>Real job data → cleaned → structured → analyzed</strong></p>
 ## What Is This
 
 Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
