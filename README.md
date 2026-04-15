@@ -1,10 +1,10 @@
 # Job-Market-Intelligence-System
 
-<p align="center">
+<p align="left">
   <img width="700" src="https://github.com/user-attachments/assets/d3068878-c07a-4ccb-80d4-e444582e0abb" />
 </p>
 
-<p align="center">
+<p align="left">
   <em>I recently graduated and wanted to understand the job market better — not just apply blindly.</em><br>
   Manually tracking roles, cleaning data, and spotting trends was slow and frustrating.<br>
   <strong>So I built my own pipeline to analyze the job market like a system, not a guess.</strong><br>
@@ -12,7 +12,7 @@
   <em>And yes — I decided to open source it.</em>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
   <img src="https://img.shields.io/badge/OpenCode-111827?style=flat&logo=terminal&logoColor=white" alt="OpenCode">
   <img src="https://img.shields.io/badge/Codex_(soon)-6B7280?style=flat&logo=openai&logoColor=white" alt="Codex">
