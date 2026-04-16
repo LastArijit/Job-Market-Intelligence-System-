@@ -69,9 +69,6 @@ The project is organized into modular scripts, each responsible for a specific s
 | `jobs_data.csv` | Final processed dataset containing cleaned job listings. |
 | `job_search.db` | SQLite database storing all processed job data. |
 | `Job_Market_Analysis_Dashboard.pbix` | Power BI dashboard used for visualizing job market insights. |
-| `phase_1.md` | Documents data collection, cleaning, and feature engineering. |
-| `phase_2.md` | Documents database design and data persistence. |
-| `Job_Tracking_List.txt` | Internal tracking file used during development. |
 
 ## Quick Start
 
