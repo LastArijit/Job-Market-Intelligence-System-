@@ -68,7 +68,7 @@ The project is organized into modular scripts, each responsible for a specific s
 | `job_search.db` | SQLite database storing all processed job data. |
 | `Job_Market_Analysis_Dashboard.pbix` | Power BI dashboard used for visualizing job market insights. |
 
-
+---
 ## How It Works
 
 ```
@@ -126,58 +126,80 @@ Export (.db) (Power BI)
 - **SQLite** → Stores structured data for querying  
 - **Power BI** → Visualizes insights and trends 
 
+---
+## ❓ Questions This Project Answers
 
+Once the data is structured and stored, the pipeline enables analysis of key job market trends, such as:
 
-## Also Open Source
+- **Which job roles are most in demand?**  
+  Identify the most frequently occurring job titles across the dataset.
 
-- **[cv-santiago](https://github.com/santifer/cv-santiago)** -- The portfolio website (santifer.io) with AI chatbot, LLMOps dashboard, and case studies. If you need a portfolio to showcase alongside your job search, fork it and make it yours.
+- **Which domains are hiring the most?**  
+  Compare demand across domains like Tech, Data, Finance, Marketing, etc.
 
-## About the Author
+- **What is the distribution of experience levels?**  
+  Understand how many roles are Junior, Mid-level, or Senior.
 
-I'm Santiago -- Head of Applied AI, former founder (built and sold a business that still runs with my name on it). I built career-ops to manage my own job search. It worked: I used it to land my current role.
+- **Which companies are hiring most actively?**  
+  Identify companies with the highest number of job postings.
 
-My portfolio and other open source projects → [santifer.io](https://santifer.io)
+- **What are the most common job locations?**  
+  Analyze geographic distribution of job opportunities.
 
-☕ [Buy me a coffee](https://buymeacoffee.com/santifer) if career-ops helped your job search.
+- **What proportion of jobs are Remote vs On-site vs Hybrid?**  
+  Understand work mode trends in the job market.
 
-## Star History
+- **How frequently are new jobs being posted?**  
+  Track job posting activity over time.
 
-<a href="https://www.star-history.com/?repos=santifer%2Fcareer-ops&type=timeline&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&legend=top-left" />
- </picture>
-</a>
+- **Are there patterns in job titles and domains?**  
+  Discover relationships between roles, levels, and domains.
 
-## Disclaimer
+- **How much noise exists in raw job data?**  
+  Compare raw vs cleaned data to understand the impact of preprocessing.
 
-**career-ops is a local, open-source tool — NOT a hosted service.** By using this software, you acknowledge:
+---
+## ⚠️ Limitations
 
-1. **You control your data.** Your CV, contact info, and personal data stay on your machine and are sent directly to the AI provider you choose (Anthropic, OpenAI, etc.). We do not collect, store, or have access to any of your data.
-2. **You control the AI.** The default prompts instruct the AI not to auto-submit applications, but AI models can behave unpredictably. If you modify the prompts or use different models, you do so at your own risk. **Always review AI-generated content for accuracy before submitting.**
-3. **You comply with third-party ToS.** You must use this tool in accordance with the Terms of Service of the career portals you interact with (Greenhouse, Lever, Workday, LinkedIn, etc.). Do not use this tool to spam employers or overwhelm ATS systems.
-4. **No guarantees.** Evaluations are recommendations, not truth. AI models may hallucinate skills or experience. The authors are not liable for employment outcomes, rejected applications, account restrictions, or any other consequences.
+While the pipeline provides a structured and scalable approach to job market analysis, it has a few limitations:
 
-See [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) for full details. This software is provided under the [MIT License](LICENSE) "as is", without warranty of any kind.
+- **Limited Data Source Coverage**  
+  The project currently relies on the JSearch API, which may not capture the full job market and can introduce source bias.
 
-## Contributors
+- **API Rate Limits & Quotas**  
+  Data collection is constrained by API limits, which can restrict the volume and frequency of data updates.
 
-<a href="https://github.com/santifer/career-ops/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=santifer/career-ops" />
-</a>
+- **Heuristic-Based Classification**  
+  Rule-based mappings (ROLE_MAP, DOMAIN_MAP, LEVEL_MAP) may not fully capture the complexity of real-world job titles.
 
-Got hired using career-ops? [Share your story!](https://github.com/santifer/career-ops/issues/new?template=i-got-hired.yml)
+- **AI Dependency for Edge Cases**  
+  The AI layer improves classification but depends on external APIs, which may introduce latency, cost, or occasional inconsistencies.
 
-## License
+- **Data Freshness**  
+  The dataset reflects snapshots of job listings rather than a continuous real-time stream.
 
-MIT
+- **Geographic Scope**  
+  Data collection is currently focused on India-based roles, which may limit global generalization.
 
-## Let's Connect
+- **Simplified Data Model**  
+  The database schema is intentionally lightweight and may not capture deeper relationships (e.g., skills, salary normalization, company metadata).
 
-[![Website](https://img.shields.io/badge/santifer.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://santifer.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santifer)
-[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/santifer)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8pRpHETxa4)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hi@santifer.io)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/santifer)
+- **Potential Data Noise**  
+  Despite cleaning, some inconsistencies or misclassifications may still persist in real-world data.
+
+---
+## 🎥 Video Overview
+
+A complete walkthrough of the project, covering the pipeline, architecture, and key components:
+
+👉 [Watch the video overview](#)
+
+In this video, I walk through:
+
+- How the data pipeline is structured  
+- How job data is collected, cleaned, and stored  
+- The role of rule-based mappings and AI in classification  
+- Database design and deduplication logic  
+- How the final dataset is used for analysis and visualization  
+
+This provides a clear end-to-end understanding of how the system works in practice.
