@@ -54,8 +54,6 @@ The goal is to transform scattered job listings into a clean, scalable dataset t
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 The project is organized into modular scripts, each responsible for a specific stage of the pipeline:
 
 | File | Description |
