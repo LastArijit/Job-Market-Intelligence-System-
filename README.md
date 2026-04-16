@@ -34,8 +34,9 @@ What started as a personal fix became something bigger.<br>
   <img src="docs/demo.gif" alt="Job Market System Demo" width="800">
 </p>
 
-<p align="left"><strong>Real job data → cleaned → structured → analyzed</strong></p>
-## What Is This
+---
+
+# Project Overview
 
 Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
 
