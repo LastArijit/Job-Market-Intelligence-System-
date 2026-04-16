@@ -50,6 +50,9 @@ The goal is to transform scattered job listings into a clean, scalable dataset t
 >  
 > This process is a core part of data engineering — understanding where systems fail, and learning how to connect the dots to make them work reliably.
 
+---
+
+## 📂 Project Structure
 
 ## 📂 Project Structure
 
@@ -57,18 +60,18 @@ The project is organized into modular scripts, each responsible for a specific s
 
 | File | Description |
 |------|------------|
-| `Job_list.py` | Main pipeline script that orchestrates the entire workflow — fetches data from the API, performs cleaning, applies transformations, and stores results in the database. :contentReference[oaicite:0]{index=0} |
-| `mappings.py` | Contains rule-based mappings for standardizing job titles, assigning domains, and detecting seniority levels. :contentReference[oaicite:1]{index=1} |
-| `ai_implementation.py` | Enhances data quality by using AI to classify and clean job roles that could not be categorized using rule-based logic. :contentReference[oaicite:2]{index=2} |
-| `create_database.py` | Initializes the SQLite database by executing the schema and creating tables, indexes, and views. :contentReference[oaicite:3]{index=3} |
-| `schema.sql` | Defines the database structure, including tables and relationships used for storing job data. |
-| `export_to_csv.py` | Extracts structured data from the database and exports it into a CSV file for analysis or visualization. :contentReference[oaicite:4]{index=4} |
-| `jobs_data.csv` | Final processed dataset containing cleaned and structured job listings. |
-| `job_search.db` | SQLite database storing all processed job data for querying and analysis. |
-| `Job_Market_Analysis_Dashboard.pbix` | Power BI dashboard used to visualize job market trends and insights. |
-| `phase_1.md` | Documents the data collection, cleaning, and feature engineering process. :contentReference[oaicite:5]{index=5} |
-| `phase_2.md` | Documents the transition to database storage and handling of data persistence and duplicates. :contentReference[oaicite:6]{index=6} |
-| `Job_Tracking_List.txt` | Internal tracking file used to monitor job-related entries during development. |
+| `Job_list.py` | Main pipeline script that orchestrates the workflow — fetches data, cleans it, applies transformations, and stores results in the database. |
+| `mappings.py` | Contains rule-based mappings for standardizing job titles, assigning domains, and detecting seniority levels. |
+| `ai_implementation.py` | Uses AI to classify and clean job roles that could not be categorized using rule-based logic. |
+| `create_database.py` | Initializes the SQLite database by executing the schema and creating tables, indexes, and views. |
+| `schema.sql` | Defines the database structure, including tables and relationships. |
+| `export_to_csv.py` | Extracts structured data from the database and exports it into a CSV file. |
+| `jobs_data.csv` | Final processed dataset containing cleaned job listings. |
+| `job_search.db` | SQLite database storing all processed job data. |
+| `Job_Market_Analysis_Dashboard.pbix` | Power BI dashboard used for visualizing job market insights. |
+| `phase_1.md` | Documents data collection, cleaning, and feature engineering. |
+| `phase_2.md` | Documents database design and data persistence. |
+| `Job_Tracking_List.txt` | Internal tracking file used during development. |
 
 ## Quick Start
 
