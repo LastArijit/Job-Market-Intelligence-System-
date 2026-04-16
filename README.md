@@ -19,7 +19,7 @@ What started as a personal fix became something bigger.<br>
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Curser-000?style=flat&logo=anthropic&logoColor=white" alt="Curser">
+  <img src="https://img.shields.io/badge/Cursor-000?style=flat&logo=anthropic&logoColor=white" alt="Cursor">
   <img src="https://img.shields.io/badge/PowerBI-111827?style=flat&logo=terminal&logoColor=white" alt="PowerBI">
   <img src="https://img.shields.io/badge/Codex_(soon)-6B7280?style=flat&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
@@ -75,43 +75,48 @@ The project is organized into modular scripts, each responsible for a specific s
 Fetch Job Data (JSearch API)
 │
 ▼
-┌──────────────────────────┐
-│ Raw Data Extraction │ Extracts key fields from nested JSON
-│ │ (title, company, location, URL, etc.)
-└──────────┬───────────────┘
++---------------------------+
+| Raw Data Extraction |
+| Extract fields from JSON |
+| (title, company, etc.) |
++-------------+-------------+
 │
 ▼
-┌──────────────────────────┐
-│ Data Cleaning │ Handles missing values, normalizes text,
-│ │ removes URL tracking noise
-└──────────┬───────────────┘
++---------------------------+
+| Data Cleaning |
+| Handle missing values |
+| Normalize text, URLs |
++-------------+-------------+
 │
 ▼
-┌──────────────────────────┐
-│ Rule-Based Mapping │ Uses ROLE_MAP, DOMAIN_MAP, LEVEL_MAP
-│ │ to standardize titles and classify roles
-└──────────┬───────────────┘
++---------------------------+
+| Rule-Based Mapping |
+| ROLE_MAP / DOMAIN_MAP |
+| LEVEL_MAP classification |
++-------------+-------------+
 │
 ▼
-┌──────────────────────────┐
-│ AI Enhancement Layer │ Processes "General" roles using Gemini
-│ │ for refined classification
-└──────────┬───────────────┘
++---------------------------+
+| AI Enhancement Layer |
+| Refines "General" roles |
+| using Gemini API |
++-------------+-------------+
 │
 ▼
-┌──────────────────────────┐
-│ Deduplication Engine │ Removes duplicates using job URLs
-│ │ (DB + in-memory checks)
-└──────────┬───────────────┘
++---------------------------+
+| Deduplication Engine |
+| Remove duplicates via URL |
++-------------+-------------+
 │
 ▼
-┌──────────────────────────┐
-│ SQLite Storage │ Stores structured data for querying
-│ │ and persistence
-└──────────┬───────────────┘
++---------------------------+
+| SQLite Storage |
+| Store structured dataset |
++-------------+-------------+
 │
 ▼
-┌──────┼────────┐
++--------+--------+
+| | |
 ▼ ▼ ▼
 CSV Database Dashboard
 Export (.db) (Power BI)
