@@ -6,10 +6,10 @@
 
 <p align="left">
   <em>Having just graduated, I wanted a clearer view of the job market.</em><br>
-But the reality?<br>
+But the reality was different.<br>
 Messy data. Duplicate roles. No signal — just noise.<br><br>
 
-Tracking it manually didn’t scale. So I stopped searching for a solution — and built one.<br><br>
+Tracking it manually was inefficient. So I stopped searching for a solution — and built one.<br><br>
 
 <strong>A pipeline that collects, cleans, and structures job data into something actually usable.</strong><br>
 <em>Something you can analyze. Something that reveals patterns.</em><br><br>
