@@ -52,7 +52,7 @@ The goal is to transform scattered job listings into a clean, scalable dataset t
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project is organized into modular scripts, each responsible for a specific stage of the pipeline:
 
@@ -117,17 +117,17 @@ CSV Database Dashboard
 Export (.db) (Power BI)
 ```
 
-### 🔍 Key Components
+### Key Components
 
-- **JSearch API** → Source of raw job listings  
-- **Pandas** → Data cleaning and transformation  
-- **Rule-Based Mapping** → Standardizes titles, domains, and levels  
-- **Gemini API** → Handles edge cases and improves classification  
-- **SQLite** → Stores structured data for querying  
-- **Power BI** → Visualizes insights and trends 
+  - **JSearch API** → Source of raw job listings  
+  - **Pandas** → Data cleaning and transformation  
+  - **Rule-Based Mapping** → Standardizes titles, domains, and levels  
+  - **Gemini API** → Handles edge cases and improves classification  
+  - **SQLite** → Stores structured data for querying  
+  - **Power BI** → Visualizes insights and trends  
 
 ---
-## ❓ Questions This Project Answers
+## Questions This Project Answers
 
 Once the data is structured and stored, the pipeline enables analysis of key job market trends, such as:
 
@@ -159,7 +159,7 @@ Once the data is structured and stored, the pipeline enables analysis of key job
   Compare raw vs cleaned data to understand the impact of preprocessing.
 
 ---
-## ⚠️ Limitations
+## Limitations
 
 While the pipeline provides a structured and scalable approach to job market analysis, it has a few limitations:
 
@@ -188,7 +188,7 @@ While the pipeline provides a structured and scalable approach to job market ana
   Despite cleaning, some inconsistencies or misclassifications may still persist in real-world data.
 
 ---
-## 🎥 Video Overview
+## Video Overview
 
 A complete walkthrough of the project, covering the pipeline, architecture, and key components:
 
