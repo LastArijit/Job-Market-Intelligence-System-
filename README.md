@@ -31,18 +31,18 @@ What started as a personal fix became something bigger.<br>
 ---
 
 # Project Overview
+The job market generates an overwhelming amount of data every day, yet most of it is unstructured, duplicated, and difficult to analyze.
 
-Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
+This project builds a structured pipeline capable of:
 
-- **Evaluates offers** with a structured A-F scoring system (10 weighted dimensions)
-- **Generates tailored PDFs** -- ATS-optimized CVs customized per job description
-- **Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)
-- **Processes in batch** -- evaluate 10+ offers in parallel with sub-agents
-- **Tracks everything** in a single source of truth with integrity checks
+- Collecting job listings from external APIs  
+- Cleaning and standardizing inconsistent data  
+- Removing duplicates and noise  
+- Classifying roles into meaningful domains  
+- Storing structured data for analysis  
+- Enabling queries to uncover hiring trends and patterns  
 
-> **Important: This is NOT a spray-and-pray tool.** Career-ops is a filter -- it helps you find the few offers worth your time out of hundreds. The system strongly recommends against applying to anything scoring below 4.0/5. Your time is valuable, and so is the recruiter's. Always review before submitting.
-
-Career-ops is agentic: Claude Code navigates career pages with Playwright, evaluates fit by reasoning about your CV vs the job description (not keyword matching), and adapts your resume per listing.
+The goal is to transform scattered job listings into a clean, scalable dataset that can be used for meaningful analysis and decision-making.
 
 > **Heads up: the first evaluations won't be great.** The system doesn't know you yet. Feed it context -- your CV, your career story, your proof points, your preferences, what you're good at, what you want to avoid. The more you nurture it, the better it gets. Think of it as onboarding a new recruiter: the first week they need to learn about you, then they become invaluable.
 
